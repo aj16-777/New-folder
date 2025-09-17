@@ -1,3 +1,21 @@
-new
-Hi my name
-new
+
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo ('haf')
+            }
+        }
+        stage('Test') {
+            steps {
+                echo ('haf')
+            }
+        }
+        stage('Deploy') {
+            steps {
+               echo ('haf')
+            }
+        }
+    }
+}
